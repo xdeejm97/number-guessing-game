@@ -11,13 +11,13 @@ public class NumberGuessingNumber {
 
     static int randomNumber() {
         Random random = new Random();
-        int randomNumber = random.nextInt(100) + 1;
-        return randomNumber;
-    }
+        return random.nextInt(100) + 1;
+        }
 
     static void introduction() {
         Scanner input = new Scanner(System.in);
-        System.out.println("Hello!" + "\n" + "Welcome to the Number Guessing Game");
+        System.out.println("Hello!" + "\n" + "Welcome to the Number Guessing Game" + "\n" +
+                "This game refers to guessing a number between 1 to 100");
         System.out.println("---------------------");
         System.out.println("1 - Play the game");
         System.out.println("2 - Score board");
